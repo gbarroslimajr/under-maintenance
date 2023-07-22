@@ -1,0 +1,31 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo editor de código
+.vscode/
+*.code-workspace
+
+# Arquivos de dependências e build
+node_modules/
+dist/
+build/
+
+# Arquivos de configuração de ambiente (não os ignore se necessário)
+.env
+.env.local
+.env.*.local
+
+# Logs e arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+log.txt
+
+# Outros arquivos específicos de projeto ou linguagem
+*.log
+*.lock
+*.swp
+*.swo
+*.cache
+*.DS_Store
