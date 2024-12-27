@@ -1,34 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <title>Inovartech - Gateway to Innovation</title>
-
-  <meta name="title" content="Inovartech - Gateway to Innovation">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="English, Spanish, Portuguese">
+  <meta name="description" content="Inovartech - Your gateway to innovative technology solutions and digital transformation">
+  <meta name="keywords" content="technology, innovation, digital transformation, tech solutions">
   <meta name="author" content="Geraldo Barros">
+  <meta name="robots" content="index, follow">
 
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="preload" href="/assets/styles.css" as="style">
+  <link rel="stylesheet" href="/assets/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
+<main aria-label="Maintenance Page">
+  <img src="/images/rocket.jpeg"
+       alt="Maintenance Illustration"
+       id="maintenance-image"
+       loading="lazy"
+       width="800"
+       height="600">
 
+  <h1 id="maintenance-title" aria-label="Maintenance Title">Ops! Estamos em Manutenção</h1>
+  <p id="maintenance-message" aria-label="Maintenance Message">Não se preocupe, logo estaremos de volta com novidades incríveis!</p>
 
-<!-- Conteúdo da página de manutenção -->
-<img src="https://cdn.dribbble.com/users/623359/screenshots/3892457/media/5944f7f21bec2416bddb7331000872f8.jpg?resize=800x600&vertical=center" alt="Manutenção em Andamento" id="maintenance-image">
-<h1 id="maintenance-title">Ops! Estamos em Manutenção</h1>
-<p id="maintenance-message">Não se preocupe, logo estaremos de volta com novidades incríveis!</p>
-
-<!-- Logo -->
-<img src="./images/Logo-Official-no-background.png" alt="Inovartech Logo" id="logo-image">
+  <img src="/images/Logo-Official-no-background.png"
+       alt="Inovartech Company Logo"
+       id="logo-image"
+       width="1521">
+</main>
 
 <footer>
-    <p id="footer-text">© 2023 inovartech.com. All rights reserved.</p>
-    <a href="policy.html" id="footer-link">Privacy Policy</a>
+  <p id="footer-text"></p>
+  <nav aria-label="Legal">
+    <a href="/policy.html">Privacy Policy</a>
+  </nav>
 </footer>
-<script src="assets/script.js"></script>
+
+<script src="/assets/script.js" defer></script>
 </body>
 </html>

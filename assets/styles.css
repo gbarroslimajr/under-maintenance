@@ -45,6 +45,29 @@ footer {
     line-height: 5px;
     background-color: #222831;
     color: #eeeeee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ff8367;
+    text-decoration: underline;
+}
+
+footer nav {
+    margin-top: 15px;
+}
+
+#footer-text {
+    margin-bottom: 15px;
 }
 
 @keyframes bounce {
